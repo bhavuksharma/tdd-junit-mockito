@@ -1,0 +1,43 @@
+# Ignore Maven target directory
+/target/
+
+# Ignore Maven wrapper files
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.vscode/
+.metadata/
+.classpath
+.project
+.settings/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore compiled Java files
+*.class
+
+# Ignore dependency-reduced POM
+dependency-reduced-pom.xml
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Ignore Spring Boot-specific files
+springBeans/
+sts4-cache/
+
+# Ignore environment files
+.env
