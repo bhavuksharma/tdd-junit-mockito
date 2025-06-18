@@ -1,11 +1,14 @@
-# Ignore Maven target directory
-/target.*
+# Maven target directory
+/target/
+!/src/main/resources/static/target/
 
-# Ignore Maven wrapper files
+# Maven wrapper files
 .mvn/
 !.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
 
-# Ignore IDE-specific files
+# IDE-specific files
 .idea/
 *.iml
 *.ipr
@@ -15,29 +18,127 @@
 .classpath
 .project
 .settings/
+*.launch
 
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
-
-# Ignore log files
-*.log
-
-# Ignore compiled Java files
-*.class
-
-# Ignore dependency-reduced POM
-dependency-reduced-pom.xml
-
-# Ignore temporary files
+# Eclipse-specific files
+*.classpath
+*.project
+*.settings/
+bin/
+tmp/
 *.tmp
 *.bak
-*.swp
-*~.nib
 
-# Ignore Spring Boot-specific files
+# IntelliJ-specific files
+out/
+*.iml
+
+# VSCode-specific files
+.vscode/
+.history/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Log files
+*.log
+
+# Compiled Java files
+*.class
+
+# Dependency-reduced POM
+dependency-reduced-pom.xml
+
+# Spring Boot-specific files
 springBeans/
 sts4-cache/
+.springBeans/
+.spring/
+.springBeans
+.spring
+*.springBeans
 
-# Ignore environment files
+# Environment files
 .env
+.env.*
+*.env
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+test-output/
+
+# Build tools
+build/
+dist/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Coverage reports
+coverage/
+jacoco.exec
+*.ec
+*.exec
+
+# Miscellaneous
+*.swp
+*~.nib
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+*.bak
+*.tmp
+*.swm
+*.swp
+*.swo
+*.swn
+*.pid
+*.seed
+*.pid.lock
+
+# Package distributions
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Local configuration files
+local.properties
+.settings/
+*.local
+*.user
+*.suo
+
+# Backup files
+*~
+*.bak
+*.old
+*.save
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Windows system files
+$RECYCLE.BIN/
+System Volume Information/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code workspace storage
+.vscode-test/
+.code-workspace
+
+# End of file
