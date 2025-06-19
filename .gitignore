@@ -1,5 +1,5 @@
 # Maven target directory
-/target/
+/target/*
 !/src/main/resources/static/target/
 
 # Maven wrapper files
